@@ -1,0 +1,182 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,600&family=Prata&family=Roboto:wght@400;700&display=swap');
+
+body {
+    display: flex;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+#sinistra {
+    height: 100vh;
+    width: 5em;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#menu {
+    margin: 0;
+    width: 5em;
+    height: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#home{
+    margin: 0;
+    width: 5em;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#explore {
+    margin: 0;
+    width: 5em;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+#library {
+    margin: 0;
+    width: 5em;
+    height: 7em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.sin {
+    margin: 0;
+}
+
+.sin-icon {
+    height: 2em;
+    width: 2em;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#alto {
+    height: 4em;
+    width: 94vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    
+}
+
+#logo {
+    width: 9em;
+    padding: 0.8em;
+}
+
+#searchbar {
+    height: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#top-icon {
+    display: flex;
+    align-items: center;
+}
+
+.topicons {
+    margin: 0.7em;
+    height: 2em;
+    width: 2em;
+    cursor: pointer;
+}
+
+
+input {
+    height: 2em;
+    width: 20em;
+    border-radius: 10;
+}
+
+button {
+    height: 2.45em;
+    width: 3.5em;
+    border-radius: 10;
+}
+
+#search {
+    width: 2em;
+    height: 1.5em;
+}
+
+#mic {
+    width: 2.3em;
+    height: 2em;
+    padding: 0.5em;
+    cursor: pointer;
+}
+
+#finestre{
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    margin: 1em;
+}
+
+#thumb {
+    height: 14em;
+    cursor: pointer;
+}
+
+#channel {
+    height: 3em;
+    cursor: pointer;
+}
+
+#back {
+    display: flex;
+    align-items: center;
+    margin-top: 0.5em;
+}
+
+#text {
+    display: flex;
+    flex-direction: column;
+    height: 2.5em;
+}
+
+#text p {
+    margin: 0;
+    padding: 0 0.8em;
+}
+
+#title {
+    font-weight: bold;    
+}
+
+#description {
+    font-size: small;
+}
+
+#schede1 {
+ display: flex;
+ width: 100%;
+ justify-content: center;
+ flex-wrap: wrap;
+}
